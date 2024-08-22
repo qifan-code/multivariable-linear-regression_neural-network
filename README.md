@@ -9,6 +9,8 @@ For this project, I set 7 layer neural network, 4 of them are nn.Linear(), 3 of 
 # 2. find optimal learning rate. 
 Here, I use loop to find the best learning rate to make it neither too large nor too small. Because large learning rate will cause divergent and Oscillation. Too small learning rate will cause slow convergence, underfitting and slow training process issue.
 The following picture can demonstrate the issue: 
+
+
 ![image](https://github.com/user-attachments/assets/e9651974-b6d1-4daa-a9e4-73721748f447)
 reference: 
 https://towardsdatascience.com/https-medium-com-dashingaditya-rakhecha-understanding-learning-rate-dd5da26bb6de
